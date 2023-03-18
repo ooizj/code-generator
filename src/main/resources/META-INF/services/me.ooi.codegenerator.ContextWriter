@@ -1,0 +1,3 @@
+me.ooi.codegenerator.contextwriters.TableInfoContextWriter
+me.ooi.codegenerator.contextwriters.FreemarkerMethodContextWriter
+me.ooi.codegenerator.contextwriters.EntityContextWriter

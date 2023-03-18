@@ -1,0 +1,35 @@
+
+spring.profiles.active: local
+
+springdoc:
+  version: '1.0'
+  swagger-ui:
+    enable: true
+    path: /swagger-ui.html
+#    use-root-path: true
+  api-docs:
+    path: /api-docs
+
+
+mybatis-plus:
+  mapper-locations: classpath:#MAPPER_PACKAGE_PATH#/*.xml
+
+---
+#本地开发环境:local-----------------------------------------------------------------------------------------------------------
+spring.profiles: local
+server.port: #APP_PORT#
+
+spring.datasource.druid.url: #DS_URL#
+spring.datasource.druid.username: #DS_USERNAME#
+spring.datasource.druid.password: #DS_PASSWORD#
+spring.datasource.druid.driver-class-name: com.mysql.cj.jdbc.Driver
+
+#spring:
+#  redis:
+#  # 服务器IP地址
+#  host: localhost
+#  # 连接端口
+#  port: 6379
+#  # Redis服务器连接密码（默认为空）
+#  password:
+

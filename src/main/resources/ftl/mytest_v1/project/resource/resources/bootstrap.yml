@@ -1,0 +1,8 @@
+server:
+  port: #APP_PORT#
+#  servlet:
+#    context-path: /#CONTEXT_PATH#
+
+spring:
+  application:
+    name: #APP_NAME#

@@ -1,0 +1,12 @@
+
+
+me.ooi.codegenerator.typeconverters.ArrayTypeResolver
+me.ooi.codegenerator.typeconverters.BigDecimalTypeResolver
+me.ooi.codegenerator.typeconverters.BlobTypeResolver
+me.ooi.codegenerator.typeconverters.ByteArrayTypeResolver
+me.ooi.codegenerator.typeconverters.ClobTypeResolver
+me.ooi.codegenerator.typeconverters.DateTypeResolver
+me.ooi.codegenerator.typeconverters.IntegerTypeResolver
+me.ooi.codegenerator.typeconverters.StringTypeResolver
+me.ooi.codegenerator.typeconverters.LongTypeResolver
+
